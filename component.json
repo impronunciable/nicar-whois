@@ -1,0 +1,8 @@
+{
+  "name": "nicar",
+  "dependencies": {
+    "necolas/normalize.css": "*",
+    "visionmedia/superagent": "*",
+    "component/escape-html": "*"
+  }
+}

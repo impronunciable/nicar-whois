@@ -1,0 +1,12 @@
+div(class=(info.available) ? 'available' : 'taken')
+  h2= info.name + info.domain
+  if(info.available == false)
+    -var expires = info.expires_on.split('-').reverse().join('/');
+
+    p Está tomado y expira el
+    h3 #{expires}
+    p Registrado por #{info.contacts.registrant.name}
+
+  else
+    p Está disponible
+    a(href="http://nic.ar") Registralo!

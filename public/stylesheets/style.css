@@ -1,0 +1,86 @@
+	body {
+		background:#2b2827;
+		margin:0;
+		padding:0;
+		text-align:center;
+		font-family:Helvetica;
+		color:#FFF;
+		margin-top:70px;
+	}
+	
+	input {
+		width:360px;
+		height:60px;
+		background:#ffeee8;
+		border:2px solid #353231;
+		font-family:Helvetica;
+		font-size:20px;
+		padding: 0 10px;
+		color:#000;
+	}
+
+	input::-webkit-input-placeholder { 
+		color:#68605e;
+	}
+
+	div#results {
+		background:#211f1e;
+		border-radius: 5px;
+		width:340px;
+		margin:10px auto;
+		padding: 4px 20px 25px 20px;
+	}
+
+	h2 {
+		font-size:28px;
+		margin-bottom:5px
+	}
+	
+	.taken h2 {
+		color:#c57a7a
+	}
+	p {
+		margin:5px 0;
+		color:#707070;
+	}
+	h3 {
+		font-size: 24px;
+		margin:10px;
+	}
+
+	.available h2 {
+		color:#65cb4a;
+	}
+
+	a {
+	cursor: pointer;
+	width: 238px;
+	height: 25px;
+	border: 1px solid #243507; /* inner stroke */
+	box-shadow: inset 0 1px 0 rgba(237,251,164,.75); /* inner shadow */
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI0MCA1OSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjQ3Ljg2MzI0Nzg2MzI0NzklIiB5MT0iMTA3LjE4ODY3OTI0NTI4MyUiIHgyPSI0Ny44NjMyNDc4NjMyNDc5JSIgeTI9IjUzLjE4ODY3OTI0NTI4MyUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjYTNjYjRiIiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDVlNzc5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyNDAiIGhlaWdodD0iNTkiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==); /* gradient overlay */
+	background-image: -moz-linear-gradient(90deg, #a3cb4b -37.38%, #d5e779 16.62%); /* gradient overlay */
+	background-image: -o-linear-gradient(90deg, #a3cb4b -37.38%, #d5e779 16.62%); /* gradient overlay */
+	background-image: -webkit-linear-gradient(90deg, #a3cb4b -37.38%, #d5e779 16.62%); /* gradient overlay */
+	background-image: linear-gradient(90deg, #a3cb4b -37.38%, #d5e779 16.62%); /* gradient overlay */
+	border-radius: 5px;
+	margin:20px auto 0 auto;
+	font-size: 20px;
+	font-family: helvetica;
+	font-weight: bold;
+	color:#50601b;
+	text-shadow:0 1px 0 rgba(255,255,255,0.3);
+	display:block;
+	padding: 10px 0;
+	text-decoration: none;
+	}
+
+	a:hover {
+		background:#f3ffb6;
+	}
+	a:active {
+		background:#9eb338;
+	box-shadow: inset 0 1px 0 rgba(0,0,0,.3); /* inner shadow */
+
+	}
+
