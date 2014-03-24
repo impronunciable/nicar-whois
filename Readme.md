@@ -3,7 +3,7 @@
 ## How to Install
 
 ```bash
-git clone git@github.com:danzajdband/nicar-whois.git nicar
+git clone git@github.com:vivaserver/nicar-whois.git nicar
 cd nicar && npm install
 node app.js
 ```
