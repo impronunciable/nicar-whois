@@ -1,6 +1,6 @@
-div(class=(info.available) ? 'available' : 'taken')
-  h2= info.name + info.domain
-  if(info.available == false)
+div(class=(info.status.available) ? 'available' : 'taken')
+  h2= info.name
+  if(info.status.available == false)
     -var expires = info.expires_on.split('-').reverse().join('/');
 
     p Está tomado y expira el
