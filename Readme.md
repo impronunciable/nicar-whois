@@ -1,5 +1,7 @@
 # Nic.Ar Whois
 
+This fork implements the updates of the new *unofficial* NIC.ar API at [api.nicalert.me](http://api.nicalert.me).
+
 ## How to Install
 
 ```bash
